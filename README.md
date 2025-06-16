@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# README
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Team Name: LyfeHackers
 
-## Get started
+Team ID: 21
 
-1. Install dependencies
+Team Members:
+- Tan Yi Xun
+- Ong Kwan Kiat Kenneth
+- Leng Cheng Song, Bryan
 
-   ```bash
-   npm install
-   ```
+Project Title: StudyHack
+Problem: Theme 2, Problem Statement 2
 
-2. Start the app
+## Introduction
+The transition to remote education has revealed significant limitations in existing virtual classroom tools. 
+Communication inefficiencies, lack of interactive opportunities, and reduced student engagement are persistent challenges. 
 
-   ```bash
-   npx expo start
-   ```
+A 2023 OECD study reported that 42% of educators consider current virtual collaboration tools inadequate for interactive learning. Most platforms do not support real-time engagement or provide effective assessment feedback mechanisms in remote settings.
 
-In the output, you'll find options to open the app in a
+Our solution aims to address these issues with an interactive mobile quiz application designed for real-time engagement between teachers and students.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Solution
+Our proposed mobile application enables: 
+- Real-time quizzes with immediate feedback and performance analytics.
+- Live interaction between teachers and students during lessons.
+- Engagement tools such as polls, peer feedback, and gamified question formats.
+- Mobile-first design for accessibility and ease of use on both Android and iOS.
+- Lightweight operation optimized for low bandwidth environments.
 
-## Get a fresh project
+Features
+- Live Quizzes: Teachers can create and post questions in real-time.
+- Instant Analytics: Students and teachers get immediate feedback on quiz results.
+- Peer Feedback: Option to review and rate responses from peers.
+- Teacher Dashboard: Manage questions, view class performance, and track engagement.
+- Security & Privacy: Secure logins and data encryption for safe access.
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+## Technical Considerations
+Platform: Built with React Native for cross-platform mobile support.
+Backend: 
+Bandwidth Management: 
+Cybersecurity: Role-based authentication and HTTPS protocols.
+Accessibility: Minimal UI for low-spec devices and multilingual support.
+Teacher Training: Built-in tutorials and onboarding guidance for educators.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
