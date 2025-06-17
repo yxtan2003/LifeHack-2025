@@ -1,6 +1,6 @@
 # README
 
-Team Name: LyfeHackerstest123
+Team Name: LyfeHackers
 
 Team ID: 21
 
