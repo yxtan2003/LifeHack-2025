@@ -34,14 +34,17 @@ A 2023 OECD report highlighted that **42% of educators** find current digital to
 
 ## ✨ Key Features
 
-| Feature                   | Description                                                                 |
-| ------------------------- | --------------------------------------------------------------------------- |
-| **Live Quizzes**          | Teachers create quizzes in real-time; students answer instantly via mobile. |
-| **Performance Analytics** | View individual and group-level performance immediately after each quiz.    |
-| **Peer Feedback**         | Optional feature for students to review and rate answers anonymously.       |
-| **Teacher Dashboard**     | Manage quizzes, track attendance, monitor engagement and scores.            |
-| **Secure Authentication** | Role-based login for students and teachers with encrypted data access.      |
-| **Multilingual Support**  | Localized UI with future-ready language pack integration.                   |
+| Feature                   | Description                                                                     |
+| ------------------------- | ------------------------------------------------------------------------------- |
+| **Live Quizzes**          | Teachers create quizzes in real-time; students answer instantly via mobile.     |
+| **Performance Analytics** | View individual and group-level performance immediately after each quiz.        |
+| **Peer Feedback**         | Optional feature for students to review and rate answers anonymously.           |
+| **Teacher Dashboard**     | Manage quizzes, track attendance, monitor engagement and scores.                |
+| **Secure Authentication** | Role-based login for students and teachers with encrypted data access.          |
+| **Multilingual Support**  | Localized UI with future-ready language pack integration.                       |
+| **Virtual Pet**           | Students can upgrade and evolve their virtual pet by gaining points from class. |
+| **Notifications**         | Increases student engagement                                                    |
+| **Leaderboard system**    | Students can view each other's points                                           |
 
 ## 🧰 Technical Stack
 
@@ -66,7 +69,6 @@ A 2023 OECD report highlighted that **42% of educators** find current digital to
 
 - Mobile-first UI design with large touch targets and readable fonts.
 - Minimal dependencies for optimal performance on older or low-spec devices.
-- Offline support for quiz viewing (coming soon).
 - Multilingual support in progress, with a localization framework in place.
 
 ## 📈 Future Enhancements
