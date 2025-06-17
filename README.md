@@ -1,50 +1,96 @@
-# README
+# QuizzMon – Real-Time Interactive Quiz Platform
 
-Team Name: LyfeHackers
+**Team Name**: LyfeHackers  
+**Team ID**: 21
 
-Team ID: 21
-
-Team Members:
+**Team Members**:
 
 - Tan Yi Xun
 - Ong Kwan Kiat Kenneth
 - Leng Cheng Song, Bryan
 
-Project Title: StudyHack
-Problem: Theme 2, Problem Statement 2
+**Problem Statement**:  
+Theme 2 – Problem Statement 2: _"How can we enhance virtual learning environments to better support engagement, interactivity, and feedback for students and teachers?"_
 
-## Introduction
+## 🧠 Introduction
 
-The transition to remote education has revealed significant limitations in existing virtual classroom tools.
-Communication inefficiencies, lack of interactive opportunities, and reduced student engagement are persistent challenges.
+The shift to remote education, accelerated by the global pandemic, has exposed critical gaps in existing virtual classroom platforms. Many tools lack interactivity, immediate feedback, and real-time engagement — all essential elements for effective learning.
 
-A 2023 OECD study reported that 42% of educators consider current virtual collaboration tools inadequate for interactive learning. Most platforms do not support real-time engagement or provide effective assessment feedback mechanisms in remote settings.
+A 2023 OECD report highlighted that **42% of educators** find current digital tools inadequate for fostering interactive learning experiences. Additionally, students report difficulty staying motivated and involved due to the passive nature of many online platforms.
 
-Our solution aims to address these issues with an interactive mobile quiz application designed for real-time engagement between teachers and students.
+**QuizzMon** addresses these shortcomings by offering a real-time mobile quiz and engagement platform designed to bridge the gap between traditional classrooms and virtual learning.
 
-## Solution
+## 📱 Solution Overview
 
-Our proposed mobile application enables:
+**QuizzMon** is a mobile app that facilitates **live interaction** between teachers and students with a virtual learning platform.
+It turns passive content consumption into dynamic, engaging learning.
 
-- Real-time quizzes with immediate feedback and performance analytics.
-- Live interaction between teachers and students during lessons.
-- Engagement tools such as polls, peer feedback, and gamified question formats.
-- Mobile-first design for accessibility and ease of use on both Android and iOS.
-- Lightweight operation optimized for low bandwidth environments.
+### Core Capabilities:
 
-Features
+- **Live Quizzes**: Teachers post real-time questions; students respond live.
+- **Instant Feedback & Analytics**: Students can get immediate feedback and performance insights; teachers see class-wide trends.
+- **Gamified Interaction**: Multiple-choice, polls, and peer-reviewed answers increase student engagement.
+- **Lightweight Design**: Optimized for low-bandwidth environments and mobile accessibility.
+- **Cross-Platform**: Compatible with both Android and iOS devices via React Native.
 
-- Live Quizzes: Teachers can create and post questions in real-time.
-- Instant Analytics: Students and teachers get immediate feedback on quiz results.
-- Peer Feedback: Option to review and rate responses from peers.
-- Teacher Dashboard: Manage questions, view class performance, and track engagement.
-- Security & Privacy: Secure logins and data encryption for safe access.
+## ✨ Key Features
 
-## Technical Considerations
+| Feature                   | Description                                                                                                    |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------- |
+| **Live Quizzes**          | Teachers create quizzes and post questions in real-time; students answer via mobile.                           |
+| **Performance Analytics** | Teachers can view individual and group-level performance immediately after each quiz.                          |
+| **Teacher Dashboard**     | Manage quizzes, track attendance, monitor engagement and scores.                                               |
+| **Student Dashboard**     | Manage virtual pet, classroom points and view past quizzes.                                                    |
+| **Secure Authentication** | Role-based login for students and teachers with encrypted data access.                                         |
+| **Notifications**         | Increases student engagement                                                                                   |
+| **Points system**         | Students can gain classroom points through various activities such as answering quiz questions correctly, etc. |
+| **Virtual Pet**           | Students can upgrade and evolve their virtual pet by gaining points from class.                                |
 
-Platform: Built with React Native for cross-platform mobile support.
-Backend:
-Bandwidth Management:
-Cybersecurity: Role-based authentication and HTTPS protocols.
-Accessibility: Minimal UI for low-spec devices and multilingual support.
-Teacher Training: Built-in tutorials and onboarding guidance for educators.
+## 🧰 Technical Stack
+
+| Component          | Technology                          |
+| ------------------ | ----------------------------------- |
+| **Frontend**       | React Native (with Expo Router)     |
+| **Backend**        | Firebase (Auth, Firestore, Storage) |
+| **Authentication** | Firebase Auth                       |
+| **Real-time Sync** | Firestore + Cloud Functions         |
+| **Navigation**     | `expo-router`                       |
+| **Hosting**        | Firebase                            |
+
+## 🔒 Security & Privacy
+
+- **Encrypted Connections**: All data transmitted over HTTPS.
+- **Role-Based Access Control**: Teacher and student roles enforce access restrictions.
+- **Data Privacy**: Personal data is stored securely and used only for educational functionality.
+- **Anonymous Participation**: Teachers can enable anonymous peer review and polling features protect student identities where needed.
+
+## 🌍 Accessibility & Inclusion
+
+- Mobile-first UI design with large touch targets and readable fonts.
+- Minimal dependencies for optimal performance on older or low-spec devices.
+
+## 📈 Future Enhancements
+
+- **Offline Mode**: Cache quizzes for low-connectivity scenarios.
+- **Leaderboard & Rewards**: Add gamified points and rankings.
+- **Question Bank**: Save and reuse frequently asked questions.
+- **Parent/Guardian Access**: Read-only dashboard for guardians.
+- **Screen Reader Support**: Full accessibility compliance for visually impaired users.
+
+## 🧪 How to Run Locally
+
+1. **Install dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+2. **Start the Expo project**:
+
+   ```bash
+   npx expo start
+   ```
+
+3. **View on mobile**:
+   Download Expo Go on your Android/iOS device.
+   Scan the QR code in the terminal or browser.
