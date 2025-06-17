@@ -1,4 +1,4 @@
-# StudyHack – Real-Time Interactive Quiz Platform
+# QuizzMon – Real-Time Interactive Quiz Platform
 
 **Team Name**: LyfeHackers  
 **Team ID**: 21
@@ -18,11 +18,11 @@ The shift to remote education, accelerated by the global pandemic, has exposed c
 
 A 2023 OECD report highlighted that **42% of educators** find current digital tools inadequate for fostering interactive learning experiences. Additionally, students report difficulty staying motivated and involved due to the passive nature of many online platforms.
 
-**StudyHack** addresses these shortcomings by offering a real-time mobile quiz and engagement platform designed to bridge the gap between traditional classrooms and virtual learning.
+**QuizzMon** addresses these shortcomings by offering a real-time mobile quiz and engagement platform designed to bridge the gap between traditional classrooms and virtual learning.
 
 ## 📱 Solution Overview
 
-**StudyHack** is a mobile app that facilitates **live interaction** between teachers and students with a virtual learning platform.
+**QuizzMon** is a mobile app that facilitates **live interaction** between teachers and students with a virtual learning platform.
 It turns passive content consumption into dynamic, engaging learning.
 
 ### Core Capabilities:
@@ -39,8 +39,8 @@ It turns passive content consumption into dynamic, engaging learning.
 | ------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | **Live Quizzes**          | Teachers create quizzes and post questions in real-time; students answer via mobile.                           |
 | **Performance Analytics** | Teachers can view individual and group-level performance immediately after each quiz.                          |
-| **Peer Feedback**         | Optional feature for students to review and rate answers anonymously.                                          |
 | **Teacher Dashboard**     | Manage quizzes, track attendance, monitor engagement and scores.                                               |
+| **Student Dashboard**     | Manage virtual pet, classroom points and view past quizzes.                                                    |
 | **Secure Authentication** | Role-based login for students and teachers with encrypted data access.                                         |
 | **Notifications**         | Increases student engagement                                                                                   |
 | **Points system**         | Students can gain classroom points through various activities such as answering quiz questions correctly, etc. |
@@ -48,15 +48,14 @@ It turns passive content consumption into dynamic, engaging learning.
 
 ## 🧰 Technical Stack
 
-| Component          | Technology                              |
-| ------------------ | --------------------------------------- |
-| **Frontend**       | React Native (with Expo Router)         |
-| **Backend**        | Firebase (Auth, Firestore, Storage)     |
-| **Authentication** | Firebase Auth (email & OAuth)           |
-| **Real-time Sync** | Firestore + Cloud Functions             |
-| **UI Library**     | NativeBase / ShadCN-inspired components |
-| **Navigation**     | `expo-router`                           |
-| **Hosting**        | Firebase                                |
+| Component          | Technology                          |
+| ------------------ | ----------------------------------- |
+| **Frontend**       | React Native (with Expo Router)     |
+| **Backend**        | Firebase (Auth, Firestore, Storage) |
+| **Authentication** | Firebase Auth                       |
+| **Real-time Sync** | Firestore + Cloud Functions         |
+| **Navigation**     | `expo-router`                       |
+| **Hosting**        | Firebase                            |
 
 ## 🔒 Security & Privacy
 
